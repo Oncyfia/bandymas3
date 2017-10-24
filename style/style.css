@@ -1,0 +1,52 @@
+.clearfix:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.container {
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0;
+}
+
+.left {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left h1 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.short-line {
+    border-top: 3px solid orange;
+    width: 50px;
+    margin: 20px 0;
+}
+
+.left p {
+    color: gray;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.left .long-line {
+    border: 1px solid gray;
+    margin: 20px 0;
+}
+
+.right {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+iframe {
+    width: 100%;
+}
